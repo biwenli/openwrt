@@ -2,9 +2,6 @@ From 31d0f8f19246c9a2fbecb5ca0a03ef6bb70eee2d Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Fri, 9 Nov 2018 19:32:53 +0800
 Subject: [PATCH] flexspi: support layerscape
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
 
 This is an integrated patch of flexspi for layerscape
 

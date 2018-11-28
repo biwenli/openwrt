@@ -2,8 +2,7 @@ From bdb1d42c9398eb14e997e026bd46602543a7ed03 Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:26:16 +0800
 Subject: [PATCH 09/40] dpaa2-l2switch: support layerscape
-This is an integrated patch of dpaa2-l2switch for
- layerscape
+This is an integrated patch of dpaa2-l2switch for layerscape
 
 Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
 Signed-off-by: Guanhua Gao <guanhua.gao@nxp.com>

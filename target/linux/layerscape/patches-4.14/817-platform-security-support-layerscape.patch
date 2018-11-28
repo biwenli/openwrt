@@ -2,8 +2,7 @@ From d2e808b0dcca1b5e850274f770775c355ae36c48 Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:27:03 +0800
 Subject: [PATCH 34/40] platfrom-security: support layerscape
-This is an integrated patch of platform-security for
- layerscape
+This is an integrated patch of platform-security for layerscape
 
 Signed-off-by: Sahil Malhotra <sahil.malhotra@nxp.com>
 Signed-off-by: Udit Agarwal <udit.agarwal@nxp.com>

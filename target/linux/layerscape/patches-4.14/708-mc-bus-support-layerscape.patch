@@ -19,7 +19,6 @@ Signed-off-by: Nipun Gupta <nipun.gupta@nxp.com>
 Signed-off-by: Radu Alexe <radu.alexe@nxp.com>
 Signed-off-by: Razvan Stefanescu <razvan.stefanescu@nxp.com>
 Signed-off-by: Stuart Yoder <stuart.yoder@nxp.com>
-Signed-off-by: Stuart Yoder <stuyoder@gmail.com>
 Signed-off-by: Biwen Li <biwen.li@nxp.com>
 ---
  drivers/bus/Kconfig                           |    2 +

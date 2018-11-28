@@ -2,8 +2,7 @@ From 780865643e5dbf41fe950924a68f7ee4fea8af3e Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:26:39 +0800
 Subject: [PATCH 30/40] ifc-nor-nand: support layerscape
-This is an integrated patch of ifc-nor-nand for
- layerscape
+This is an integrated patch of ifc-nor-nand for layerscape
 
 Signed-off-by: Prabhakar Kushwaha <prabhakar.kushwaha@nxp.com>
 Signed-off-by: Raghav Dogra <raghav.dogra@nxp.com>

@@ -2,8 +2,7 @@ From c64d8ab6260330fa2fe9a2d676256697e4e2a83c Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:26:44 +0800
 Subject: [PATCH 31/40] ls2-console: support layerscape
-This is an integrated patch of ls2-console for
- layerscape
+This is an integrated patch of ls2-console for layerscape
 
 Signed-off-by: Razvan Stefanescu <razvan.stefanescu@nxp.com>
 Signed-off-by: Biwen Li <biwen.li@nxp.com>

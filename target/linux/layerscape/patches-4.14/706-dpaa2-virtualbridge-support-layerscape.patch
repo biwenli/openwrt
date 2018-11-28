@@ -2,8 +2,7 @@ From d10a80ce04a9d28e4ed7ee02d8dd5eda1f636d9d Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:26:23 +0800
 Subject: [PATCH 12/40] dpaa2-virtualbridge: support layerscape
-This is an integrated patch of dpaa2-virtualbridge for
- layerscape
+This is an integrated patch of dpaa2-virtualbridge for layerscape
 
 Signed-off-by: Razvan Stefanescu <razvan.stefanescu@nxp.com>
 Signed-off-by: Biwen Li <biwen.li@nxp.com>

@@ -2,9 +2,6 @@ From 0bafdb711c1a61fbe5bb5b4d4bb5e32425d95a72 Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Fri, 16 Nov 2018 15:36:03 +0800
 Subject: [PATCH] config: support layerscape
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
 
 This is an integrated patch of config for layerscape
 
@@ -16,7 +13,6 @@ Signed-off-by: Camelia Groza <camelia.groza@nxp.com>
 Signed-off-by: Chenhui Zhao <chenhui.zhao@nxp.com>
 Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
 Signed-off-by: Horia Geantă <horia.geanta@nxp.com>
-Signed-off-by: Horia Geantă horia.geanta@nxp.com
 Signed-off-by: Ioana Ciornei <ioana.ciornei@nxp.com>
 Signed-off-by: Ioana Radulescu <ruxandra.radulescu@nxp.com>
 Signed-off-by: Li Yang <leoyang.li@nxp.com>

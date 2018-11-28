@@ -2,8 +2,7 @@ From 6ec4d0cf0b0e5e41abc91012db4ebff7d415a92b Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:26:13 +0800
 Subject: [PATCH 08/40] dpaa2-ethernet: support layerscape
-This is an integrated patch of dpaa2-ethernet for
- layerscape
+This is an integrated patch of dpaa2-ethernet for layerscape
 
 Signed-off-by: Bogdan Purcareata <bogdan.purcareata@nxp.com>
 Signed-off-by: Camelia Groza <camelia.groza@nxp.com>

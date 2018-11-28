@@ -2,8 +2,7 @@ From 92cf25fe454dd42136e717ba679a9dba740db0e7 Mon Sep 17 00:00:00 2001
 From: Biwen Li <biwen.li@nxp.com>
 Date: Tue, 30 Oct 2018 18:26:18 +0800
 Subject: [PATCH 10/40] dpaa2-mac-phy: support layerscape
-This is an integrated patch of dpaa2-mac-phy for
- layerscape
+This is an integrated patch of dpaa2-mac-phy for layerscape
 
 Signed-off-by: Alex Marginean <alexandru.marginean@nxp.com>
 Signed-off-by: Bogdan Hamciuc <bogdan.hamciuc@nxp.com>
