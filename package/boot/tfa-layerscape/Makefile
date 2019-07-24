@@ -30,6 +30,7 @@ define Package/tfa-layerscape/Config
     VARIANT:=$(1)
     BIN_BL2:=$(3)
     BIN_FIP:=$(4)
+    FIPTOOL:=$(STAGING_DIR_HOST)/bin/fiptool
   endef
 endef
 
@@ -46,7 +47,8 @@ define Build/Compile
 	$(MAKE) -C $(PKG_BUILD_DIR) CROSS_COMPILE=$(TARGET_CROSS) \
 		fip pbl PLAT=$(PLAT) BOOT_MODE=$(BOOT_MODE) \
 		RCW=$(STAGING_DIR_IMAGE)/$(BUILD_VARIANT)-rcw.bin \
-		BL33=$(STAGING_DIR_IMAGE)/$(BUILD_VARIANT)-uboot.bin
+		BL33=$(STAGING_DIR_IMAGE)/$(BUILD_VARIANT)-uboot.bin \
+		FIPTOOL=$(FIPTOOL)
 endef
 
 define Package/tfa-layerscape/ls1012ardb

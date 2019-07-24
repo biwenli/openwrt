@@ -1,0 +1,45 @@
+From 61690d7808d0c6afe0f7ec6c675da63178aa13e5 Mon Sep 17 00:00:00 2001
+From: Biwen Li <biwen.li@nxp.com>
+Date: Tue, 23 Jul 2019 18:03:56 +0800
+Subject: [PATCH] fiptool: fix that failed to compile fiptool
+
+Not compile fiptool
+
+build log:
+	pkgbuild stdio:
+
+	In file included from fiptool.h:16:0,
+			 from fiptool.c:19:
+	fiptool_platform.h:18:27: fatal error: openssl/sha.h: No such file or directory  #  include <openssl/sha.h>
+				   ^
+	compilation terminated.
+	Makefile:50: recipe for target 'fiptool.o' failed
+	make[4]: *** [fiptool.o] Error 1
+	Makefile:749: recipe for target 'tools/fiptool/fiptool' failed
+	make[3]: *** [tools/fiptool/fiptool] Error 2
+	make[3]: Leaving directory '/builder/shared-workdir/build/build_dir/target-aarch64_generic_musl/tfa-layerscape-ls1012ardb/tfa-layerscape-lsdk-1903'
+	Makefile:135: recipe for target '/builder/shared-workdir/build/build_dir/target-aarch64_generic_musl/tfa-layerscape-ls1012ardb/tfa-layerscape-lsdk-1903/.built' failed
+
+Signed-off-by: Biwen Li <biwen.li@nxp.com>
+---
+ Makefile | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 94ae63e..e11d90b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -744,10 +744,6 @@ fiptool: ${FIPTOOL}
+ fip: ${BUILD_PLAT}/${FIP_NAME}
+ fwu_fip: ${BUILD_PLAT}/${FWU_FIP_NAME}
+ 
+-.PHONY: ${FIPTOOL}
+-${FIPTOOL}:
+-	${Q}${MAKE} CPPFLAGS="-DVERSION='\"${VERSION_STRING}\"'" --no-print-directory -C ${FIPTOOLPATH}
+-
+ cscope:
+ 	@echo "  CSCOPE"
+ 	${Q}find ${CURDIR} -name "*.[chsS]" > cscope.files
+-- 
+1.8.3.1
+
